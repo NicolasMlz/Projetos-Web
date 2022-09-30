@@ -20,17 +20,27 @@ a {
 	padding: 5px;
 }
 
+h1 {
+	color: #828271;
+	font-size: 1.5em;
+}
+
 #conteudo {
 	background-color: #e8e8d9;
 	padding: 10px;
 }
 
-#titulo-conteudo {
-	font-weight: 900;
-	color: #9c8d7a;
-	font-size: 23px;
-}
 
 .centralizar {
 	text-align: center;
+}
+
+#foto-conteudo {
+	border: 12px solid #d2d2c0;
+  	margin: auto;
+  	display: block;
+}
+
+.negrito {
+	font-weight: bold;
 }
