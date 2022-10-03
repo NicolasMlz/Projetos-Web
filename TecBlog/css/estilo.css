@@ -1,0 +1,162 @@
+/*Limpar formatacao padrao*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+*********** IDS ***********
+*/
+#cabecalho {
+	background: #ffc300;
+	text-align: center;
+	padding: 15px;
+}
+
+#area-logo, #menu {
+	padding: 10px;
+}
+
+#area-conteudo {
+	width: 1210px;
+	margin: 20px auto;
+	position: relative;
+}
+
+#area-postagem {
+	width: 820px;
+	background: #e6e6e6;
+	float: left;
+}
+
+#area-cards {
+	width: 360px;
+	background: #e6e6e6;
+	float: right;
+}
+
+#card2 {
+
+}
+
+#rodape {
+	clear: both;
+	background: #dedade;
+	text-align: center;
+	padding: 15px;
+}
+
+/*
+*********** FORMATACOES EM GERAL ***********
+*/
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;	
+}
+
+h2 {
+	color: #fbc538;
+}
+
+a {
+	text-decoration: none;
+	color: #ffc300;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cards a {
+	color: #ffc300;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+#card2 a {
+	color: #ffc300;
+	margin-left: 0px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#cabecalho a {
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 8px;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+	color: #ffffff;
+}
+
+#cabecalho a:hover {
+	background: #ffffff;
+	color: #ffc300;
+}
+
+hr {
+	margin: 5px;
+}
+
+.branco {
+	color: white;
+}
+
+/*
+*********** CLASSES ***********
+*/
+.post {
+	background: white;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.titulo-post {
+	font-size: 1.5em;
+	color: #fec12e;
+}
+
+.data-post {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.imagem-post {
+	display: flex;
+  	justify-content: center;
+  	margin: 15px 0px;
+}
+
+.descricao-post {
+	font-size: 0.7em;
+}
+
+.card {
+	background: white;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.titulo-card {
+	background: #dedade;
+	color: #635959;
+	padding: 10px;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #635959;
+}
+
+.texto-card {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 0.3em;
+}
