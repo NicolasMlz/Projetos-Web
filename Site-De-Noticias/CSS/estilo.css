@@ -1,0 +1,314 @@
+/*=================================GERAL================================*/
+	* {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body {
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		background: url(../imagens/fundo.png) repeat-x;
+	}
+
+	#container {
+		width: 750px;
+		margin: 0px auto;
+	}
+/*=================================GERAL================================*/
+
+
+
+
+/*=================================CABEÇALHO================================*/
+	/*==============================IMAGENS DO TOPO==============================*/
+	#cabecalho {
+		padding: 25px;
+		height: 150px;
+		background: url(../imagens/detalhe-topo.png) no-repeat right;
+	} 
+
+	#logo {
+		width: 152px;
+		height: 66px;
+		background: url(../imagens/logo.png) no-repeat center;
+		text-indent: -3000px;
+	}
+	/*==============================IMAGENS DO TOPO==============================*/
+
+
+
+
+	/*==============================LINKS DO MENU==============================*/
+	/*CARACTERISTICAS DAS LISTAS NO GERAL*/
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+	/*FLUTUAR LISTA DO CABECALHO*/
+		#cabecalho ul {
+
+			/*CARACTERISTICAS*/
+			background-color: #af002d;
+			float: left;
+
+			/*CONTAINER*/
+			margin-top: 40px;
+		}
+
+	/*FLUTUAR ELEMENTOS DA LISTA DO CABECALHO E DEFINIR DIVISOR*/
+		#cabecalho ul li {
+			float: left;
+			background: url(../imagens/divisor.png) no-repeat left center;
+		}
+
+	/*FORMATAR LINK E ESPAÇAR NO ITEM DA LISTA*/
+		#cabecalho ul a {
+
+			/*TEXTO*/
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 0.8em;
+			color: white;
+
+			/*CONTAINER*/
+			line-height: 2.1em;
+			margin: 0.5em 1.5em;
+			display: block;
+		}
+
+	/*CASOS ESPECÍFICOS E EVENTOS DOS LINKS*/
+		#cabecalho ul li.primeiro {
+			background: none;
+		}
+
+		#cabecalho ul li.selecionado,  #cabecalho ul li.selecionado a:hover{
+			color: white;
+			background: #de003e;
+			cursor: text;
+		}
+
+		#cabecalho ul a:hover {
+			color: black;
+			font-weight: bold;
+		}
+
+		#cabecalho ul a:active {
+			color: #de003e;
+		}
+	/*==============================LINKS DO MENU==============================*/
+/*=================================CABEÇALHO================================*/
+
+
+
+
+/*=================================CONTEUDO DA NOTICIA================================*/
+	
+	#conteudo {
+		margin-top: 50px;
+		background: #f6f6f6;
+	}
+
+
+	/*=================================BARRA LATERAL================================*/
+		
+		.lateral {
+			width: 180px;
+			float: left;
+			margin: 0 0px 20px -750px;
+			
+		}
+
+		/*=================================MENU================================*/
+			.lateral .noticia h2 {
+				background-color: #28486e;
+				padding: 5px;
+				margin-bottom: 10px;
+
+				font-size: 1.2em;
+				font-weight: bold;
+				color: white;
+			}
+
+			.lateral #caixa-opcoes ul{
+				background-color: white;			
+			}
+
+			#caixa-opcoes li {
+				padding: 10px;
+			}
+
+			#caixa-opcoes a {
+				text-decoration: none;
+				color: black;
+				font-size: 0.9em;
+				padding: 3px;
+				display: block;
+				border-bottom: 1px solid #f3f3f3;
+			}
+
+			#caixa-opcoes a:hover {
+				color: gray;
+				text-indent: 20px;
+				background: white url(../imagens/marcador.png) no-repeat left center;
+			}
+		/*=================================MENU================================*/
+
+		/*=================================NEWS================================*/
+
+			.lateral h2 {
+				background-color: #28486e;
+				padding: 5px;
+				margin-bottom: 10px;
+
+				font-size: 1.2em;
+				font-weight: bold;
+				color: white;
+			}
+
+			.area-email {
+				background: white;
+				padding: 5px;
+			}
+
+			.area-email input.email {
+				width: 70%;
+				border: 1px solid lightgray;
+				padding: 5px;
+				margin-top: 5px;
+			}
+
+			.area-email input.cadastrar {
+				width: 50%;
+				border: 1px solid darkred;
+				padding: 5px;
+				margin-top: 5px;
+				color: white;
+				text-align: center;
+				background-color: #af002d;
+			}
+		/*=================================NEWS================================*/
+
+	/*=================================BARRA LATERAL================================*/
+
+	/*=================================CONTEUDO PRIMÁRIO================================*/
+		.primario {
+			width: 270px;
+			background: white;
+			float: left;
+			margin: 0 0 20px 195px;
+		}
+
+		#duas-colunas .primario {
+			width: 555px;
+		}
+
+		#uma-coluna .primario {
+			width: 750px;
+			margin: 0 0 20px 0;
+		}
+
+		.caixa {
+			background: white url(../imagens/fundo-caixa.png);
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+
+		div.caixa h2 {
+			background: #28486e;
+			color: white;
+			padding: 5px;
+			font-size: 1.2em;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		.detalhes-noticia {
+			padding: 5px;
+			background-color: white;
+		}
+
+		div.detalhes-noticia h3 {
+			font-size: 0.8em;
+			display: inline;
+			padding: 3px 10px 3px 3px;
+			background-color: #de003e;
+			font-weight: bold;
+
+		}
+
+		div.detalhes-noticia img {
+			width: 98%;
+			border: 2px solid #dfdfdf;
+		}
+
+		div.detalhes-noticia a {
+			color: #af002d;
+		}
+
+		.caixa-conteudo {
+			padding: 5px;
+			background-color: white;
+		}
+
+		#lista-noticias li {
+			padding: 2px;
+			border-bottom: 2px solid #ccc;
+			height: 65px;
+		}
+
+		#lista-noticias li:hover {
+			background: #eee;
+			cursor: pointer;
+		}
+
+		#lista-noticias p {
+			font-size: 0.8em;
+		}
+
+		#lista-noticias img {
+			float: left;
+			padding: 5px;
+		}
+
+		#lista-noticias a {
+			color: #5371cc;
+			text-decoration: none;
+			font-size: 0.9em;
+		}	
+
+		#lista-noticias a:hover {
+			color: blue;
+		}
+	/*=================================CONTEUDO PRIMÁRIO================================*/
+
+	/*=================================CONTEUDO SECUNDÁRIO================================*/
+		.secundario {
+			width: 270px;
+			float: left;
+			margin: 0 0 20px 15px;
+		}
+
+		div.secundario h3 {
+			color: white;
+		}
+	/*=================================CONTEUDO SECUNDÁRIO================================*/
+/*=================================CONTEUDO DA NOTICIA================================*/
+
+
+
+
+
+/*=================================RODAPE================================*/
+	#container-rodape {
+		background: #28486e;
+		padding: 20px;
+	}
+
+	#rodape {
+		color: white;
+		font-weight: bold;
+		margin: 0 auto;
+		width: 750px;
+	}
+/*=================================RODAPE================================*/
