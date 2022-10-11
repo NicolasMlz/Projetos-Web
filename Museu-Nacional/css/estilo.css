@@ -1,0 +1,217 @@
+/*=================================GERAL================================*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		background: #f3f2ee url(../imagens/fundo.png) repeat-x center top;
+	}
+
+	#container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	li {
+		display: inline;
+	}
+
+	a {
+		text-decoration: none;
+	}
+/*=================================GERAL================================*/
+
+
+
+
+
+
+/*=================================TOPO=================================*/
+	header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		height: 90px;
+		padding-right: 50px;
+	}
+
+	#logo {
+		width: 250px;
+		height: 40px;
+		cursor: pointer;
+	}
+
+
+	nav ul {
+		list-style-type: none;
+	}
+
+	nav li {
+		padding: 10px;
+	}
+
+	nav a {
+		color: #895b2d;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 0.9em;
+	}
+
+	nav a:hover {
+		text-decoration: underline;
+		color: #3b5a2f;
+		text-decoration-color: rgba(255, 255, 255, 0.4);
+	}
+
+/*=================================TOPO=================================*/
+
+
+
+
+
+
+/*===============================PRINCIPAL===============================*/
+	article {
+		width: 65%;
+		float: left;
+	}
+
+	#info {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.card-info {
+		margin: 20px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 42%;
+	}
+
+	#info h2 {
+		color: #4c8146;
+		text-transform: uppercase;
+		font-size: 1.2em;
+		margin-bottom: 15px;
+	}
+
+	#info ul, footer ul {
+		list-style-type: disc;
+		margin-left: 15px;
+	}
+
+	#info li, footer li {
+		display: block;
+		padding: 1px 0;
+	}
+
+	#info a, footer a {
+		color: #b9a381;
+	}
+
+	#info a:hover, footer a:hover {
+		color: #4c8146;
+	}
+/*===============================PRINCIPAL===============================*/
+
+
+
+
+
+
+/*===============================LATERAL===============================*/
+	aside {
+		width: 32%;
+		float: right;
+		margin-bottom: 20px;
+	}
+
+	#visita {
+		margin-top: 20px;
+		background-color: #ccc7b4;
+		padding: 30px;
+	}
+
+	h3 {
+		font-size: 1.2em;
+		color: #875b3b;
+		text-transform: uppercase;
+		padding-bottom: 15px;
+	}
+
+	.texto-cadastro {
+		margin-left: 20px;
+	}
+
+	.submit {
+		width: 100%;
+		margin-top: 20px;
+		padding: 15px;
+		background-color: #9c9076;
+		font-size: 1.2em;
+		color: white;
+		border: none;
+		cursor: pointer;
+		border-radius: 40px;
+	}
+
+	#area-galeria {
+		background-color: #ede6de;
+		padding: 30px;
+	}
+
+	#galeria {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.foto {
+		background: url(../imagens/fundo-foto.png) no-repeat top;
+		background-size: cover;
+		position: relative;
+		width: 122px;
+		height: 122px;
+		margin: 20px;
+	}
+
+	.foto img {
+		position: absolute;
+		top: 17px;
+		left: 15px;
+	}
+/*===============================LATERAL===============================*/
+
+
+
+
+
+
+
+/*===============================RODAPÉ===============================*/
+	footer {
+		clear: both;
+		background: url(../imagens/fundo-rodape.png) no-repeat top ;
+		text-align: center;
+		padding: 35px;
+		margin-bottom: 30px;
+	}
+
+	footer ul {
+		margin-bottom: 15px;
+	}
+
+	footer li {
+		display: inline;
+		margin: 10px;
+	}
+/*===============================RODAPÉ===============================*/
+
