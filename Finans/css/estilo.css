@@ -1,0 +1,86 @@
+/*GERAL*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		background-color: #ffbf17;
+	}
+
+	#container {
+		width: 90%;
+		margin: 0 auto;
+	}
+/*GERAL*/
+
+
+
+
+
+/*TOPO*/
+	#logo {
+		float: left;
+		background: #ffbf17 url(../imagens/logo.png) no-repeat center;
+		width: 260px;
+		height: 100px;
+		text-indent: -9000px;
+	}
+
+	nav ul {
+		list-style: none;
+		float: right;
+		font-size: 1.2em;
+		padding: 10px;
+		margin-right: 20px;
+	}
+
+	nav a, nav #entrar:hover {
+		color: #a87002;
+	}
+
+	nav a:hover, nav #entrar {
+		color: white;
+	}
+
+	nav #entrar {
+		font-size: 1.2em;
+		float: right;
+	}
+/*TOPO*/
+
+
+
+
+
+/*CADASTRO*/
+	#cadastro {
+		float: left;
+		width: 50%;
+		margin-top: 6em;
+	}
+
+	#mulher {
+		float: right;
+		width: 37%;
+		margin-right: 6em;
+	}
+
+	#cadastro h1, #cadastro h5 {
+		color: white;
+	}
+
+	#cadastro h5 {
+		margin-top: 1em;
+		margin-bottom: 2em;
+	}
+
+	#cadastro button, #cadastro input {
+		font-size: 1.5em;
+		height: 2em;
+	}
+
+	#area-disponibilidade {
+		margin: 2em 0;
+	}
+/*CADASTRO*/
