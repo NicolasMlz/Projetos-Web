@@ -1,0 +1,161 @@
+/*GERAL*/
+    body, html {
+        height: 100%;
+    }
+
+    .parallax {
+
+        /*PROPRIEDADES DA IMAGEM PARA TER O EFEITO*/
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+        opacity: 0.8;
+        position: relative;
+
+        /*Fundo*/
+        background-image: url(../imagens/capa.png);
+        background-repeat: repeat;
+    }
+
+
+    .borda {
+        border: 2px solid red;
+    }
+/*GERAL*/
+
+
+
+
+
+
+
+/*MENU*/
+    .navbar-dark {
+        color: white;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+    }
+
+    nav span, footer span {
+        font-size: 1.7em;
+    }
+
+    nav ul li {
+        margin: 0 1em;
+    }
+
+
+    nav img, footer img {
+        margin-bottom: 10px;
+    }
+/*MENU*/
+
+
+
+
+
+
+/*HOME*/
+    #home {
+        padding: 15em 0; 
+    }
+    
+    #home h1 {
+        font-weight: bold;
+        color: black;
+        margin-bottom: 0.5em;
+    }
+
+    #home a {
+        margin: 1em;
+    }
+
+    #home .btn {
+        border-radius: 3em;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+    }
+
+    #home .btn-primary {
+        background-color: purple;
+        border-color: purple;
+    }
+/*HOME*/
+
+
+
+
+
+
+/*VANTAGENS*/
+
+    #vantagens {
+        background-color: white;
+        padding: 2em;
+    }
+
+    #vantagens h1 {
+        color: purple;
+        font-weight: bold;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+/*VANTAGENS*/
+
+
+
+
+
+
+/*FACILIDADES*/
+
+    #facilidades {
+        padding: 2em;
+    }
+
+    #facilidades h1.display-4 {
+        font-weight: bold;
+        color: black;
+    }
+
+    #facilidades h1 {
+        font-weight: bold;
+        color: lightblue;
+    }
+
+    #facilidades p {
+
+    }
+
+    #facilidades img {
+        transform: rotate(30deg);
+        position: relative;
+    }
+
+    #facilidades img.img1 {
+        bottom: 6em;
+        left: 6em;
+    }
+
+    #facilidades img.img2 {
+        top: 6em;
+        left: 8em;
+    }
+/*FACILIDADES*/
+
+
+
+
+
+/*RODAPE*/
+    footer {
+        background-color: black;
+        color: white;
+        padding: 3em 4em;
+    }
+/*RODAPE*/
