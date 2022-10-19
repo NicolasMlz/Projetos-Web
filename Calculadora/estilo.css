@@ -1,0 +1,27 @@
+body {
+	background-color: #ccc;
+	height: 100%;
+	margin: 0px;
+}
+
+#centralizar {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#calculadora {
+	width: 300px;
+	height:400px;
+	background-color: #2f2f2d;
+	border-radius: 10px;
+	padding: 2em 1.5em;
+}
+
+#visor {
+	background-color: #eae9ee;
+	height: 40px;
+	border-radius: 5px;
+}
