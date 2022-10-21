@@ -4,6 +4,10 @@ body {
 	margin: 0px;
 }
 
+.borda {
+	border: 1px solid red;
+}
+
 #centralizar {
 	width: 100vw;
 	height: 100vh;
@@ -20,8 +24,25 @@ body {
 	padding: 2em 1.5em;
 }
 
-#visor {
-	background-color: #eae9ee;
-	height: 40px;
-	border-radius: 5px;
+.resultado {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #000;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.btn {
+	width: 60px;
+    height: 50px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px #000;
+}
+
+button.duplo {
+	width: 130px;
+}
+
+button.enter {
+	height: 110px;
 }
