@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orçamento Pessoal - App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+
+  <body>
+    
+    <!-- Topo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+        <div class="container">
+
+        	<!-- Logo -->
+        	<a href="" class="navbar-brand">
+            	<img src="imagens/logo.png" width="50" height="35" alt="Orçamento pessoal">
+        	</a>
+
+					<!-- Menu Hamburguer -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navegacao" aria-controls="navegacao" aria-expanded="false" aria-label="Toggle navigation">
+          		<span class="navbar-toggler-icon"></span>
+        	</button>
+
+          <!-- Navegação -->
+					<div class="collapse navbar-collapse" id="navegacao">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link">Cadastro</a>
+							</li>
+							<li class="nav-item">
+								<a href="consulta.html" class="nav-link">Consulta</a>
+							</li>
+						</ul>
+					</div>
+			</div>
+    </nav>
+    <!-- Topo -->
+
+
+
+    <!-- Titulo -->
+    <div class="container mb-5">
+    	<h1 class="display-4">Registro de novas despesas</h1>
+    </div>
+    <!-- Titulo -->
+
+
+
+    <!-- Titulo -->
+    <div class="container">
+    	<h2>Registrar</h2>
+    </div>
+    <!-- Titulo -->
+
+
+
+    <!-- Registrar -->
+    <div class="container">
+    	<div class="row mb-3">
+    		<div class="col-2">
+    			<form>
+		    		<select class="form-control" id="ano">
+                <option>Ano</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+            </select>
+		    	</form>
+    		</div>
+
+    		<div class="col-2">
+    			<form>
+		    		<select class="form-control" id="mes">
+              <option>Mês</option>
+              <option value="1">Janeiro</option>
+	            <option value="2">Fevereiro</option>
+	            <option value="3">Março</option>
+	            <option value="4">Abril</option>
+	            <option value="5">Maio</option>
+	            <option value="6">Junho</option>
+	            <option value="7">Julho</option>
+	            <option value="8">Agosto</option>
+	            <option value="9">Setembro</option>
+	            <option value="10">Outubro</option>
+	            <option value="11">Novembro</option>
+	            <option value="12">Dezembro</option>
+            </select>
+		    	</form>
+    		</div>
+
+    		<div class="col-2">
+    			<form>
+    				<select class="form-control" id="dia">
+              <option>Dia</option>
+              <option value="1">1</option>
+	            <option value="2">2</option>
+	            <option value="3">3</option>
+	            <option value="4">4</option>
+	            <option value="5">5</option>
+	            <option value="6">6</option>
+	            <option value="7">7</option>
+	            <option value="8">8</option>
+	            <option value="9">9</option>
+	            <option value="10">10</option>
+	            <option value="11">11</option>
+	            <option value="12">12</option>
+	            <option value="13">13</option>
+	            <option value="14">14</option>
+	            <option value="15">15</option>
+	            <option value="16">16</option>
+	            <option value="17">17</option>
+	            <option value="18">18</option>
+	            <option value="19">19</option>
+	            <option value="20">20</option>
+	            <option value="21">21</option>
+	            <option value="22">22</option>
+	            <option value="23">23</option>
+	            <option value="24">24</option>
+	            <option value="25">25</option>
+	            <option value="26">26</option>
+	            <option value="27">27</option>
+	            <option value="28">28</option>
+	            <option value="29">29</option>
+	            <option value="30">30</option>
+	            <option value="31">31</option>
+            </select>
+		    	</form>
+    		</div>
+
+    		<div class="col-6">
+    			<form>
+		    		<select class="form-control" id="tipo">
+              <option>Tipo</option>
+              <option value="1">Alimentação</option>
+	            <option value="2">Educação</option>
+	            <option value="3">Lazer</option>
+	            <option value="4">Saúde</option>
+	            <option value="5">Transporte</option>
+            </select>
+		    	</form>
+    		</div>
+    	</div>
+
+    	<div class="row mb-5">
+    		<div class="col-7">
+    			<input type="text" class="form-control" placeholder="Descrição" id="descricao" />
+    		</div>
+
+    		<div class="col-3">
+    			<div class="input-group">
+		          <div class="input-group-prepend">
+		          	<span class="input-group-text">$</span>
+		          </div>
+
+		           <input class="form-control" type="text" placeholder="Digite um valor">
+		        </div>
+    		</div>
+
+    		<div class="col-2 d-flex justify-content-end">
+    			<button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+    		</div>
+    	</div>
+    </div>
+    <!-- Registrar -->
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  </body>
+</html>
